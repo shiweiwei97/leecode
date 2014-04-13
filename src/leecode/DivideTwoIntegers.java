@@ -1,5 +1,11 @@
 package leecode;
 
+/***
+ * http://oj.leetcode.com/problems/divide-two-integers/
+ * 
+ * @author weiwei
+ * 
+ */
 public class DivideTwoIntegers {
 
     public int divide(int dividend, int divisor) {
