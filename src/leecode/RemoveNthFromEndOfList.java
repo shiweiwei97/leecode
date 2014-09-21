@@ -1,5 +1,7 @@
 package leecode;
 
+import leecode.common.ListNode;
+
 /***
  * http://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/
  * 

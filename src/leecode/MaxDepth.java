@@ -3,6 +3,8 @@ package leecode;
 import java.util.ArrayList;
 import java.util.List;
 
+import leecode.common.TreeNode;
+
 /***
  * https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/
  * @author weiwei
