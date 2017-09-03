@@ -14,32 +14,32 @@ public class RotateList {
 
         // get list length
         int len = 0;
-        ListNode node = head;
-        for (; node != null; node = node.next)
+        ListNode oldHead = head, prev = null, cur = head;
+        while (cur != null) {
+            prev = cur;
+            cur = cur.next;
             len++;
-
-        if (len == 0) return head;
+        }
 
         // ensure k < length
-        k %= len;
-        if (k == 0) return head;
+        if (len == 0 || (k %= len) == 0) return head;
+
+        // record last node
+        ListNode last = prev;
 
         // cut the last k nodes from the list
-        ListNode oldHead = head, prev = null, cur = head;
+        prev = null;
+        cur = head;
         for (int i = 0; i < len - k; i++) {
             prev = cur;
             cur = cur.next;
         }
         prev.next = null;
 
-        ListNode ret = cur;
-
         // link the list end back to head
-        while (cur.next != null)
-            cur = cur.next;
-        cur.next = oldHead;
+        last.next = oldHead;
 
-        return ret;
+        return cur;
     }
 
     public static void main(String[] args) {
