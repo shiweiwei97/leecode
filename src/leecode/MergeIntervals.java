@@ -1,8 +1,8 @@
 package leecode;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import leecode.common.Interval;
 
@@ -43,21 +43,14 @@ public class MergeIntervals {
     // https://discuss.leetcode.com/topic/38628/beat-98-java-sort-start-end-respectively
     public List<Interval> merge2(List<Interval> intervals) {
         // sort start&end
-        int n = intervals.size();
-        int[] starts = new int[n];
-        int[] ends = new int[n];
-        for (int i = 0; i < n; i++) {
-            starts[i] = intervals.get(i).start;
-            ends[i] = intervals.get(i).end;
-        }
-        Arrays.sort(starts);
-        Arrays.sort(ends);
+        List<Integer> starts = intervals.stream().map(o -> o.start).sorted().collect(Collectors.toList());
+        List<Integer> ends = intervals.stream().map(o -> o.end).sorted().collect(Collectors.toList());
 
         // loop through
         List<Interval> res = new ArrayList<Interval>();
-        for (int i = 0, j = 0; i < n; i++) { // j is start of interval.
-            if (i == n - 1 || starts[i + 1] > ends[i]) {
-                res.add(new Interval(starts[j], ends[i]));
+        for (int i = 0, j = 0, n = intervals.size(); i < n; i++) { // j is start of interval.
+            if (i == n - 1 || starts.get(i + 1) > ends.get(i)) {
+                res.add(new Interval(starts.get(j), ends.get(i)));
                 j = i + 1;
             }
         }
