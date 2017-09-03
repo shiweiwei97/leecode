@@ -11,21 +11,14 @@ import java.util.Stack;
 public class SimplifyPath {
 
     public String simplifyPath(String path) {
-        String[] arr = path.split("/");
         Stack<String> stack = new Stack<>();
-        for (int i = 0; i < arr.length; i++) {
-            String p = arr[i];
-            if (p.equals("") || p.equals(".")) continue;
-            else if (p.equals("..")) {
-                if (!stack.isEmpty()) {
-                    stack.pop();
-                }
-            } else {
-                stack.push(p);
-            }
+        for (String p : path.split("/")) {
+            if (p.equals("..") && !stack.isEmpty()) stack.pop();
+            else if (p.equals("") || p.equals(".") || p.equals("..")) continue;
+            else stack.push(p);
         }
 
-        return "/" + String.join("/", stack.toArray(new String[] {}));
+        return "/" + String.join("/", stack);
     }
 
     public static void main(String[] args) {
