@@ -89,8 +89,6 @@ public class SurroundedRegions {
         if (m == 0) return;
 
         int n = board[0].length;
-        if (n == 0) return;
-
         // at least 3x3 square can surround something
         if (m < 3 || n < 3) return;
 
@@ -108,7 +106,6 @@ public class SurroundedRegions {
         for (int i = 0; i < m; i++)
             for (int j = 0; j < n; j++)
                 board[i][j] = board[i][j] == 'B' ? 'O' : 'X';
-
     }
 
     private void dfs(char[][] board, int x, int y, int m, int n) {
