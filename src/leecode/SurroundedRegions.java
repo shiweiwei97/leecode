@@ -6,7 +6,12 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-// TODO: TLE
+/***
+ * https://leetcode.com/problems/surrounded-regions/description/
+ * 
+ * @author weiwei
+ *
+ */
 public class SurroundedRegions {
 
     public void solve(char[][] board) {
@@ -19,49 +24,57 @@ public class SurroundedRegions {
 
         List<String> oList = new ArrayList<>();
 
-        for (int i = 0; i < m; i++)
-            for (int j = 0; j < n; j++)
-                if (board[i][j] == 'O') oList.add(key(i, j));
+        for (int i = 0; i < m; i++) {
+            if (board[i][0] == 'O') oList.add(key(i, 0));
+            if (board[i][n - 1] == 'O') oList.add(key(i, n - 1));
+        }
+
+        for (int i = 0; i < n; i++) {
+            if (board[0][i] == 'O') oList.add(key(0, i));
+            if (board[m - 1][i] == 'O') oList.add(key(m - 1, i));
+        }
 
         while (!oList.isEmpty()) {
 
-            List<String> list = new ArrayList<>();
-            list.add(oList.get(0));
-            boolean isOpen = false;
+            Set<String> set = new HashSet<>();
+            set.add(oList.get(0));
 
             // remember all the point in this round
             Set<String> allSet = new HashSet<>();
-            allSet.addAll(list);
+            allSet.addAll(set);
 
-            while (!list.isEmpty()) {
+            while (!set.isEmpty()) {
 
-                List<String> newList = new ArrayList<>();
-
-                for (String key : list) {
+                for (String key : set) {
                     String[] arr = key.split(",");
                     int x = Integer.parseInt(arr[0]), y = Integer.parseInt(arr[1]);
-                    if (x == 0 || y == 0 || x == m - 1 || y == n - 1) isOpen = true;
-
-                    if (x > 0 && board[x - 1][y] == 'O' && !allSet.contains(key(x - 1, y))) newList.add(key(x - 1, y));
-                    if (y > 0 && board[x][y - 1] == 'O' && !allSet.contains(key(x, y - 1))) newList.add(key(x, y - 1));
-                    if (x < m - 1 && board[x + 1][y] == 'O' && !allSet.contains(key(x + 1, y))) newList.add(key(x + 1, y));
-                    if (y < n - 1 && board[x][y + 1] == 'O' && !allSet.contains(key(x, y + 1))) newList.add(key(x, y + 1));
+                    board[x][y] = 'B';
                 }
 
-                list = newList;
-                allSet.addAll(list);
-            }
+                Set<String> newSet = new HashSet<>();
 
-            if (!isOpen) {
-                for (String key : allSet) {
+                for (String key : set) {
                     String[] arr = key.split(",");
                     int x = Integer.parseInt(arr[0]), y = Integer.parseInt(arr[1]);
-                    board[x][y] = 'X';
+
+                    if (x > 0 && board[x - 1][y] == 'O' && !allSet.contains(key(x - 1, y))) newSet.add(key(x - 1, y));
+                    if (y > 0 && board[x][y - 1] == 'O' && !allSet.contains(key(x, y - 1))) newSet.add(key(x, y - 1));
+                    if (x < m - 1 && board[x + 1][y] == 'O' && !allSet.contains(key(x + 1, y)))
+                        newSet.add(key(x + 1, y));
+                    if (y < n - 1 && board[x][y + 1] == 'O' && !allSet.contains(key(x, y + 1)))
+                        newSet.add(key(x, y + 1));
                 }
+
+                set = newSet;
+                allSet.addAll(set);
             }
 
             oList.removeAll(allSet);
         }
+
+        for (int i = 0; i < m; i++)
+            for (int j = 0; j < n; j++)
+                board[i][j] = board[i][j] == 'B' ? 'O' : 'X';
     }
 
     private String key(int x, int y) {
