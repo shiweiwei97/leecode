@@ -5,6 +5,12 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+/***
+ * https://leetcode.com/problems/fraction-to-recurring-decimal/description/
+ * 
+ * @author weiwei
+ *
+ */
 public class FractionRecurringDecimal {
 
     public String fractionToDecimal(int n, int d) {
