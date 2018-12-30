@@ -1,0 +1,657 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AddBinary<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.AddBinary",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AddTwoNumbers<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.AddTwoNumbers",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Anagrams<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.Anagrams",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BackspaceStringCompare<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.BackspaceStringCompare",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BestTimeBuySellStock3<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.BestTimeBuySellStock3",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinaryTreeMaxPathSum<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.BinaryTreeMaxPathSum",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Candy<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.Candy",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ClimeStairs<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.ClimeStairs",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CompareVersionNumbers<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.CompareVersionNumbers",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ConcatenatedWords<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.ConcatenatedWords",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ConvertNumberHexadecimal<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.ConvertNumberHexadecimal",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CourseSchedule<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.CourseSchedule",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DailyTemperatures<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.DailyTemperatures",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DecodeWays<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.DecodeWays",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DeleteAndEarn<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.DeleteAndEarn",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DivideTwoIntegers<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.DivideTwoIntegers",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DungeonGame<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.DungeonGame",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EvaluateReversePolishNotation<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.EvaluateReversePolishNotation",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExcelSheetColumnTitle<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.ExcelSheetColumnTitle",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FirstMissingPositive<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.FirstMissingPositive",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FourSum<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.FourSum",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FractionRecurringDecimal<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.FractionRecurringDecimal",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GenerateParentheses<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.GenerateParentheses",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GrayCode<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.GrayCode",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HandOfStraights<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.HandOfStraights",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InsertInterval<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.InsertInterval",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Int2Roman<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.Int2Roman",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InterleavingString<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.InterleavingString",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JumpGame<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.JumpGame",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LRUCache<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.LRUCache",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LargestNumber<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.LargestNumber",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LargestRectangleInHistogram<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.LargestRectangleInHistogram",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LinkedListCycle<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.LinkedListCycle",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestCommonPrefix<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.LongestCommonPrefix",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestConsecutiveSequence<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.LongestConsecutiveSequence",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestMountain<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.LongestMountain",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestValidParentheses<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.LongestValidParentheses",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MatchsticksToSquare<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.MatchsticksToSquare",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxDepth<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.MaxDepth",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxProfit2<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.MaxProfit2",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxRectangle<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.MaxRectangle",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxSubarray<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.MaxSubarray",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaximumProductSubarray<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.MaximumProductSubarray",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeIntervals<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.MergeIntervals",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MinStack<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.MinStack",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MinWindowSubstring<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.MinWindowSubstring",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MonotoneIncreasingDigits<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.MonotoneIncreasingDigits",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MultiplyStrings<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.MultiplyStrings",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NQueens<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.NQueens",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NQueens2<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.NQueens2",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NextPermutation<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.NextPermutation",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PalindromePartitioning2<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.PalindromePartitioning2",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PermutationSequence<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.PermutationSequence",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RemoveDuplicates<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.RemoveDuplicates",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RemoveElement<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.RemoveElement",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RemoveNthFromEndOfList<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.RemoveNthFromEndOfList",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReorderList<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.ReorderList",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RepeatedDNASequences<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.RepeatedDNASequences",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RestoreIPAddress<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.RestoreIPAddress",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Reverse<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.Reverse",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseWordsInString<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.ReverseWordsInString",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Roman2Integer<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.Roman2Integer",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RotateList<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.RotateList",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SameTrue<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.SameTrue",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ScrambleString<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.ScrambleString",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SearchForRange<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.SearchForRange",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SearchInsertPosition<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.SearchInsertPosition",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SearchMatrix<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.SearchMatrix",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SetMatrixZeros<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.SetMatrixZeros",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SimplifyPath<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.SimplifyPath",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SingleNumber2<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.SingleNumber2",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SpiralMatrix<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.SpiralMatrix",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Sqrt<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.Sqrt",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StrStr<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.StrStr",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SubstringWithConcatenationAllWords<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.SubstringWithConcatenationAllWords",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SudokuSolver<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.SudokuSolver",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SurroundedRegions<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.SurroundedRegions",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TextJustification<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.TextJustification",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreeSum<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.ThreeSum",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TwoSum<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.TwoSum",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TwoSum2<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.TwoSum2",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UniqueBST<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.UniqueBST",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UniquePaths2<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.UniquePaths2",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UniqueSubstrings<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.UniqueSubstrings",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ValidPalindrome<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.ValidPalindrome",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WildcardMatching<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.WildcardMatching",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WordBreak<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.WordBreak",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WordBreak2<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.WordBreak2",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WordLadder<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.WordLadder",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WordLadder2<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.WordLadder2",
+            "projectName": "leecode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WordSearch<leecode>",
+            "request": "launch",
+            "mainClass": "leecode.WordSearch",
+            "projectName": "leecode"
+        }
+    ]
+}
